@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Стрижка собак</title>
+    <link href="styles/style.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="jquery-1.3.2.min.js"></script>
+    <script src="jquery-ui-1.7.2.custom.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            $(function() {
+                $("#accordion").accordion();
+            });
+
+
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="headerDog"  itemscope itemtype="http://schema.org/Organization">
+        <div class="head ">
+        <section class="logo textShadow">
+            <h1 class="logoMain textShadow" itemprop="name">Hvostiki</h1>
+            <h2 class="logoDescription" itemprop="description">зоосалон</h2>
+        </section>
+        <nav class="mainNav textShadow">
+            <ul>
+                <li><a href="#"> О нас</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Наши работы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+            <div class="tel textShadow">
+                <span itemprop="telephone">(044) 325-58-85</span>
+            </div>
+        </div>
+            <hr class="headLine">
+
+            <article class="dogGrooming textShadow2" itemscope itemtype ="http://schema.org/Offer">
+                <h2 itemprop="category">
+                    СТРИЖКА СОБАК
+
+                </h2>
+                <p itemprop="price">
+                    - В САЛОНЕ И НА ДОМУ от 250 грн
+                </p>
+            </article>
+            <a href="#" class="dogGroomingButtonCost yellowGradient block">
+                Узнать цены
+            </a>
+            <a href="#" class="dogGroomingCall block yellowGradient">
+                Перезвоните мне!
+            </a>
+            <a href="#" class="block downButton">
+                <img src="image/down_button.png" alt="down image" width="44" height="43">
+            </a>
+        </header>
+        <article class="whyWeMainPart">
+        <h2 class="whyWe centerText">
+            ПОЧЕМУ МЫ?
+        </h2>
+            <section class="whyWeContent">
+            <figure class="dogsImage">
+                <img src="image/best_specialists.png" alt="best specialist" width="249" height="222">
+                <figcaption>Только лучшие специалисты</figcaption>
+            </figure>
+            <figure class="dogsImage">
+                <img src="image/professional_cosmetics.png" alt="professional cosmetics" width="249" height="222">
+                <figcaption>Профессиональная косметика</figcaption>
+            </figure>
+            <figure class="dogsImage">
+                <img src="image/sterile_instruments.png" alt="sterile instruments" width="249" height="222">
+                <figcaption>Стерильные инструменты</figcaption>
+            </figure>
+            </section>
+            <div class="clear"></div>
+        </article>
+
+        <article class="approach">
+            <article class="individualApproach">
+                <h3>Индивидуальный подход к каждому!</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+            </article>
+            <img src="image/dog_grooming.png" width="510" height="318" alt="dog grooming" class="rightImage">
+        </article>
+        <div class="clear"></div>
+        <article class="discount">
+            <img src="image/dog_grooming_discount.jpg" alt="dog grooming discount" width="493" height="390">
+           <!--<img src="image/end_repeat_el.jpg" alt="end background" width="116" height="390" class="discountEnd">-->
+           <!--<span class="discountEnd">11 </span>-->
+            <section class="firstGrooming">
+            <span class="discountWhite">ПРИ ПЕРВОЙ СТРИЖКЕ</span>
+            <span class="discountYellow">СКИДКА 20%</span>
+            </section>
+            <a href="#" class="signUp yellowGradient block">
+                Записаться на стрижку
+            </a>
+            <img src="image/arrow.png" width="111" height="108" alt="arrow" class="yellowArrow">
+        </article>
+        <div class="clear"></div>
+        <article class="services">
+            <header class="ourServices centerText">
+                НАШИ УСЛУГИ
+            </header>
+            <div>* - цены зависят от породы Вашего питомца</div>
+            <section class="dogsSize">
+                <figure>
+                    <img src="image/small_dog.png" alt="small dog" width="183" height="156">
+                    <figcaption>Small</figcaption>
+                </figure>
+            <figure>
+                <img src="image/medium_dog.png" alt="medium dog" width="183" height="156">
+                <figcaption>Medium</figcaption>
+            </figure>
+                <figure>
+                    <img src="image/large_dog.png" alt="large dog" width="183" height="156">
+                    <figcaption class="paddingLarge">Large</figcaption>
+                </figure>
+
+            </section>
+        </article>
+        <div class="clear"></div>
+        <section class="tables" >
+            <div>
+            <table itemscope itemtype="http://schema.org/Product">
+                <thead>
+                <tr>
+                    <th colspan="3" itemprop="name">Комплексная стрижка</th>
+                    </tr>
+                </thead>
+                    <tbody>
+                    <tr class="tablePrice">
+                    <td><span class="yellowLetter">M </span>  200 грн</td>
+                    <td><span class="yellowLetter">M</span>  200 грн</td>
+                    <td><span class="yellowLetter">M</span>  200 грн</td>
+                    </tr>
+                    <tr class="tableBackground tablePadding">
+                        <td  colspan="3" itemprop="description">Купание проф. средствами</td>
+                        </tr>
+                <tr class="tableBackground">
+                <td  colspan="3" itemprop="description">Сушка / укладка феном</td>
+                    </tr>
+                <tr class="tableBackground">
+                <td colspan="3" itemprop="description">Стрижка</td>
+                    </tr>
+                <tr class="tableBackground">
+                <td  colspan="3" itemprop="description">Подстригание ногтей</td>
+                    </tr>
+                <tr class="tableBackground">
+                <td colspan="3" itemprop="description">Чистка ушей и глаз</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            <div>
+            <table itemscope itemtype="http://schema.org/Product">
+                <thead>
+                <tr>
+                    <th colspan="3" itemprop="name">Купание</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="tablePrice">
+                    <td colspan="3">от 200 грн*</td>
+                </tr>
+                <tr class="tableBackground tablePadding">
+                    <td  colspan="3" itemprop="description">Купание проф. средствами</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3" itemprop="description">Сушка / укладка феном</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3" itemprop="description">Подстригание ногтей</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description">Чистка ушей и глаз</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            <div>
+            <table itemscope itemtype="http://schema.org/Product">
+                <thead>
+                <tr>
+                    <th colspan="3" itemprop="name">Триминг</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="tablePrice">
+                    <td colspan="3">от 200 грн*</td>
+                </tr>
+                <tr class="tableBackground tablePadding">
+                    <td  colspan="3" itemprop="description">Удаление остевой шерсти</td>
+                </tr>
+                <tr class="tableBackground tablePadding">
+                    <td  colspan="3" itemprop="description">Модельная стрижка по породе</td>
+                </tr>
+                <tr class="tableBackground tablePadding">
+                    <td  colspan="3" itemprop="description">Мытье специальным шампунем</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3" itemprop="description">Сушка / укладка феном</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description">Стрижка</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3">Подстригание ногтей</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3">Чистка ушей</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+            <div>
+            <table itemscope itemtype="http://schema.org/Product">
+                <thead>
+                <tr>
+                    <th colspan="3" itemprop="name">Гигиеническая стрижка</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="tablePrice">
+                    <td colspan="3">от 200 грн*</td>
+                </tr>
+                <tr class="tableBackground tablePadding">
+                    <td  colspan="3" itemprop="description">Купание проф. средствами</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3" itemprop="description">Сушка / укладка феном</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description">Стрижка</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td  colspan="3" itemprop="description">Подстригание ногтей</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description">Чистка ушей</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description">Окантовка морды и лап
+                       </td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description"> Стрижка шерсти под хвостом</td>
+                </tr>
+                <tr class="tableBackground">
+                    <td colspan="3" itemprop="description"> Стрижка шерсти на животике</td>
+                </tr>
+                </tbody>
+            </table>
+                </div>
+            <div class="clear"></div>
+        </section>
+        <div class="clear"></div>
+        <a href="#" class="signUpMiddle yellowGradient block">
+            Записаться на стрижку
+        </a>
+        <article class="ourWorks">
+            <header class="centerText ourWorksText">
+                Наши работы
+            </header>
+            <figure>
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+            </figure>
+            <div class="clear"></div>
+            <figure>
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+                <img src="image/our_works.jpg" width="302" height="210" alt="our works">
+            </figure>
+        </article>
+        <article class="discount discount2">
+            <img src="image/dog_grooming_discount.jpg" alt="dog grooming discount" width="493" height="390">
+            <!--<img src="image/end_repeat_el.jpg" alt="end background" width="116" height="390" class="discountEnd">-->
+            <!--<span class="discountEnd">11 </span>-->
+            <section class="firstGrooming">
+                <span class="discountWhite">ПРИ ПЕРВОЙ СТРИЖКЕ</span>
+                <span class="discountYellow">СКИДКА 20%</span>
+            </section>
+            <a href="#" class="signUp yellowGradient block">
+                Записаться на стрижку
+            </a>
+            <img src="image/arrow.png" width="111" height="108" alt="arrow" class="yellowArrow">
+        </article>
+        <div class="clear"></div>
+        <footer>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.1054483842468!2d30.616673815297023
+        !3d50.43913649606189!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c55d08ef4ab7%3A0xc318e674fef35004
+        !2z0L_RgNC-0YHQvy4g0JLQvtC30Lcn0ZTQtNC90LDQvdC90Y8sIDfQkCwgN0EsINCa0LjRl9Cy!5e0!3m2!1suk!2sua!4v1454865437332"
+                width="600" height="450" allowfullscreen></iframe>
+            <aside class="bussinessUp">
+                Разработка лендинг пейдж Студия BusinessUp
+            </aside>
+            <section class="logoFooter">
+                <h1 class="logoMain textShadow">Hvostiki</h1>
+                <h2 class="logoDescription textShadow">зоосалон</h2>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
